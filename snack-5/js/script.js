@@ -13,7 +13,7 @@ let sum = 0;
 do {
     let number = parseInt(prompt('inserisci un numero'));
     numList.push(number);
-    sum += parseInt(number);
+    sum += number;
     console.log(number);
     console.log(numList);
 } while(sum < 50);
